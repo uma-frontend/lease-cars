@@ -110,11 +110,11 @@ li{
 /*HERO*/
 
 .hero {
+   padding: 157px 0px 589px 0px;
 
 }
 
 .hero__container {
-   padding: 157px 0px 0px 0px;
    display: flex;
    flex-direction: column;
    align-items: center;
