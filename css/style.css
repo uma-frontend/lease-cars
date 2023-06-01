@@ -285,6 +285,43 @@ li{
 }
 
 /*IMPORTANT*/
+.important {
+   padding: 0px 0px 150px 0px;
+}
+
+.important__container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.important__heading {
+   margin: 0px 0px 20px 0px;
+}
+
+.important__text {
+   width: 580px;
+   margin: 0px 0px 50px 0px;
+}
+
+.important__list {
+   display: flex;
+   margin: 0px 0px 0px -40px;
+}
+
+.important__item {
+   margin: 0px 0px 0px 40px;
+}
+
+.important__img {
+   width: 270px;
+   height: 150px;
+   margin: 0px 0px 20px 0px;
+}
+
+.important__item-text {
+   width: 270px;
+}
 
 /*FOOTER*/
 
