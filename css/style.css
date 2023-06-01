@@ -190,15 +190,7 @@ li{
    width: 100%;
    max-width: 660px;
    margin: 0 auto;
-}
-
-.work__container {
-}
-
-.heading {
-}
-
-.work__heading {
+   padding: 0px 0px 150px 0px;
 }
 
 .work__text {
@@ -242,7 +234,6 @@ li{
    font-size: 48px;
    font-weight: 700;
    line-height: normal;
-
 }
 
 .work__item-text {
@@ -254,6 +245,47 @@ li{
 }
 
 /*VIDEO*/
+.video {
+   padding: 0px 0px 150px 0px;
+}
+
+.video__container {
+   text-align: center;
+}
+
+.video__heading {
+   text-transform: uppercase;
+   margin: 0px 0px 20px 0px;
+}
+
+.video__title {
+   margin: 0px 0px 50px 0px;
+   font-size: 24px;
+   line-height: normal;
+}
+
+.video__img-wrap {
+   position: relative;
+   display: flex;
+   width: 1000px;
+   margin: 0 auto;
+}
+.video__img-wrap::after{
+   content: "";
+   width: 80px;
+   height: 56px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-image: url(../img/youtube.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+.video__img {
+}
+
 /*IMPORTANT*/
 /*FOOTER*/
 
