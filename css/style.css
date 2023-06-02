@@ -110,7 +110,7 @@ li{
 /*HERO*/
 
 .hero {
-   padding: 157px 0px 439px 0px;
+   padding: 157px 0px 589px 0px;
 
 }
 
@@ -324,6 +324,76 @@ li{
 }
 
 /*FOOTER*/
+.footer {
+   padding: 50px 0px 32px 0px;
+   background-color: var(--main-text-color);
+   color: var(--white-color);
+}
+
+.footer__list {
+   display: flex;
+   justify-content: space-around;
+   margin: 0px 0px 50px 0px;
+}
+
+.footer__list-item:not(:last-child) {
+   margin: 0px 0px 20px 0px;
+}
+
+.footer__list-title {
+   font-size: 24px;
+   font-weight: 700;
+   line-height: normal;
+   margin: 0px 0px 40px 0px;
+}
+
+.footer__list-link{
+   color: var(--white-color);
+   transition: all 0.2s ease-in-out;
+}
+
+.footer__list-link:hover{
+   color: var(--accent-color);
+}
+
+.footer__list-link:active{
+   color: var(--accent-color);
+   opacity: 0.8;
+}
+
+
+.footer__apps {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0px 0px 50px 0px;
+}
+
+.footer__app:not(:last-child) {
+   margin: 0px 40px 0px 0px;
+}
+
+.footer__text {
+   width: 810px;
+   margin: 0 auto 30px auto;
+   font-size: 12px;
+   text-align: center;
+   line-height: normal;
+}
+
+.footer__bottom {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer__bottom-item:not(:last-child) {
+   margin: 0px 40px 0px 0px;
+}
+
+.footer__bottom-link {
+   color: var(--white-color);
+}
 
 
 
